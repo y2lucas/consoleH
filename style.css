@@ -10,11 +10,13 @@
     --Roxo-Brilhante: #B13BFF;
     --Amarelo-Ambar: #FFCC00;
     --Branco: #FFFF;
+    --preto:#000000;
 }
 
 body {
     background-color: var(--Azul-Escuro);
     color: var(--Branco);
+    border: 10px solid var(--Roxo-Brilhante);
 }
 
 
@@ -40,27 +42,58 @@ body {
 .container-header a:hover {
     border-bottom: solid var(--Roxo-Brilhante) 2px;
 }
-.container-box{
+
+.container-box {
     display: flex;
 }
 
 .box {
     margin: 100px;
-    font-size: 28px;
+    font-size: 38px;
 
 }
 
 .box h3 {
-   margin-top: 15px;
-font-size: 24px;
-max-width: 700px;
+    margin-top: 20px;
+    font-size: 24px;
+    max-width: 700px;
 }
-.box-img{
-  margin: 100px;
+
+.box-img {
+    margin-top: 150px;
 }
-.box-img img{
+
+.box-img img {
+    height: 800px;
     width: 800px;
- max-width: 100%; 
- height: auto;
-  display: block;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.title-vercoes {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.grid-vercoes {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    font-variant: var(--Branco);
+}
+
+.vercoes {
+    padding: 30px;
+    border: var(--Roxo-Escuro) solid 12px;
+}
+
+.vercoes img {
+    height: 150px;
+    width: 150px;
+     max-width: 100%;
+    display: block;
+    /* object-fit: cover; */
 }
