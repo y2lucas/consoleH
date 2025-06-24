@@ -27,3 +27,52 @@
     }
 
 }
+@media(max-width:800px){
+
+}
+
+@media(max-width:897px) {
+    .box {
+    margin-top: 80px;
+
+}
+
+    .box-img {
+        align-self: flex-start;
+    }
+
+    .box h1 {
+        max-width: 500px;
+    }
+
+    .box h3 {
+        margin-top: 20px;
+        font-size: 10px;
+        max-width: 900px;
+    }
+}
+
+@media(max-width:1235px) {
+    .box h1 {
+        font-size: 37px;
+        max-width: 500px;
+    }
+
+    .box h3 {
+        margin-top: 20px;
+        font-size: 19px;
+        max-width: 900px;
+    }
+
+    .box-img {
+        align-self: flex-start;
+    }
+
+    .box-img img {
+        height: 800px;
+        width: 800px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+}

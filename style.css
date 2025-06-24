@@ -72,7 +72,7 @@ body {
 }
 
 .title-vercoes {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
     font-size: 48px;
 }
@@ -81,7 +81,7 @@ body {
     padding-top: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .vercoes-left {
@@ -110,7 +110,7 @@ body {
 }
 
 .vercoes-right {
-    margin-top: 250px;
+    margin-top: 20px;
     margin-right: 15px;
     background-color: var(--Roxo-Brilhante);
     border: var(--Amarelo-Ambar) 12px solid;
