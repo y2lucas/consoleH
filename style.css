@@ -47,11 +47,10 @@ body {
 }
 
 .background-img {
-    border:6px solid var(--Roxo-Brilhante); 
-    margin-top: 30px;
+    margin-top: 50px;
     height:800px;
     background-image:url(backgroundconsole.jpeg);
-    background-color: black;
+
 
 }
 .background-img-text{
@@ -60,6 +59,7 @@ body {
   font-size: 80px;
   color:var(--Amarelo-Ambar);
     font-family: 'Pixelify Sans', sans-serif;
+   font-weight: 800;
 
 }
 
