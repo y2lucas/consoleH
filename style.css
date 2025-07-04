@@ -19,7 +19,7 @@
 body {
     background-color: var(--Azul-Escuro);
     color: var(--Branco);
-  
+
 }
 
 
@@ -27,6 +27,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+
 }
 
 .container-header nav {
@@ -48,18 +49,19 @@ body {
 
 .background-img {
     margin-top: 50px;
-    height:800px;
-    background-image:url(backgroundconsole.jpeg);
+    height: 800px;
+     background-image:url(backgroundconsole.jpeg); 
 
 
 }
-.background-img-text{
-  text-align: center;
-  padding-top: 340px;
-  font-size: 80px;
-  color:var(--Amarelo-Ambar);
+
+.background-img-text {
+    text-align: center;
+    padding-top: 340px;
+    font-size: 80px;
+    color: var(--Amarelo-Ambar);
     font-family: 'Pixelify Sans', sans-serif;
-   font-weight: 800;
+    font-weight: 800;
 
 }
 
@@ -87,86 +89,31 @@ body {
     display: block;
 }
 
-.title-vercoes {
+.title-historia {
     padding-top: 30px;
     text-align: center;
     font-size: 48px;
-  font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
 
 
 }
 
-.flex-vercoes {
-    padding-top: 30px;
+section.História {
+   font-family: 'Pixelify Sans', sans-serif;
+}
+.container-historia{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.vercoes-left {
-    margin-top: 20px;
+    margin-top:80px;
     margin-left: 50px;
-    padding: 50px;
-    background-color: var(--Roxo-Brilhante);
-    height: 220px;
-    width: 600px;
-    border: var(--Amarelo-Ambar) 12px solid;
-    border-radius: 20px;
-    display: flex;
-}
-
-.info-left-vercoes {
-    padding-left: 80px;
 
 }
-
-.info-left-vercoes h1 {
-    font-size: 29px;
+.historia-left,
+.historia-right{
+    flex: 1;
 }
-
-.info-left-vercoes p {
-    font-size: 20px;
+.historia-left{
+font-size: 27px;
 }
-
-.vercoes-right {
-    margin-top: 20px;
-    margin-right: 15px;
-    background-color: var(--Roxo-Brilhante);
-    border: var(--Amarelo-Ambar) 12px solid;
-    border-radius: 20px;
-    height: 220px;
-    width: 600px;
-    padding: 50px;
-    display: flex;
-
-}
-
-.info-right-vercoes {
-    padding-left: 80px;
-
-}
-
-.info-right-vercoes h1 {
-    font-size: 29px;
-}
-
-.info-right-vercoes p {
-    font-size: 20px;
-}
-
-
-
-.vercoes-left img {
-    height: 150px;
-    width: 150px;
-    max-width: 100%;
-    display: block;
-    /* object-fit: cover; */
-}
-.vercoes-right img {
-    height: 150px;
-    width: 150px;
-    max-width: 100%;
-    display: block;
-    /* object-fit: cover; */
+.historia-right img{
+    margin-left: 50px;
 }
