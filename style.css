@@ -50,7 +50,7 @@ body {
 .background-img {
     margin-top: 50px;
     height: 800px;
-     background-image:url(backgroundconsole.jpeg); 
+    background-image: url(backgroundconsole.jpeg);
 
 
 }
@@ -99,21 +99,39 @@ body {
 }
 
 section.História {
-   font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
 }
-.container-historia{
+
+.container-historia {
     display: flex;
-    margin-top:80px;
+    margin-top: 80px;
     margin-left: 50px;
 
 }
+
 .historia-left,
-.historia-right{
+.historia-right {
     flex: 1;
 }
-.historia-left{
-font-size: 27px;
+
+.historia-left {
+    font-size: 27px;
 }
-.historia-right img{
-    margin-left: 50px;
+
+.historia-right img {
+    margin-left: 2%
+}
+
+.historia-right p {
+    color: var(--Branco);
+    font-size: 30px;
+   padding-left: 30%;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 270px);
+    gap: 5px;
+    justify-items: stretch;
+
 }
