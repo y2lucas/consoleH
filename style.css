@@ -22,6 +22,9 @@ body {
 
 }
 
+main {
+    font-family: 'Pixelify Sans', sans-serif;
+}
 
 .container-header {
     display: flex;
@@ -93,13 +96,8 @@ body {
     padding-top: 30px;
     text-align: center;
     font-size: 48px;
-    font-family: 'Pixelify Sans', sans-serif;
 
 
-}
-
-section.História {
-    font-family: 'Pixelify Sans', sans-serif;
 }
 
 .container-historia {
@@ -125,13 +123,57 @@ section.História {
 .historia-right p {
     color: var(--Branco);
     font-size: 30px;
-   padding-left: 30%;
+    padding-left: 20%;
 }
 
 .image-container {
+    padding-left: 10px;
     display: grid;
     grid-template-columns: repeat(3, 270px);
     gap: 5px;
     justify-items: stretch;
 
+}
+
+.evolucao-title {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.grid-evolucao {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+margin-left: 50px;
+}
+
+.grid-rockstar,
+.grid-nintendo,
+.grid-sony,
+.grid-microft {
+    width: 400px;
+    height: 380px;
+    border-radius: 90px;
+    object-fit: cover;
+}
+
+
+.grid-nintendo {
+    background-image: url(logo_nintendo.jpg);
+}
+
+.grid-sony {
+background-image:url(logo_play.png);
+object-fit: cover;
+
+}
+
+.grid-microft {
+    background-color: green;
+
+}
+
+.grid-rockstar {
+    background-color: var(--preto);
 }
