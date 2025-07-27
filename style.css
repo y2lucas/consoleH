@@ -8,12 +8,18 @@
 }
 
 :root {
+    /* Padrão de Cores do site */
     --Azul-Escuro: #090040;
     --Roxo-Escuro: #471396;
     --Roxo-Brilhante: #B13BFF;
     --Amarelo-Ambar: #FFCC00;
     --Branco: #FFFF;
     --preto: #000000;
+
+    /* Cores Consoles */
+    --Azul-play: #0070D1;
+    --Cinza-play: #2D2D2D;
+
 }
 
 body {
@@ -141,39 +147,29 @@ main {
     font-size: 40px;
 }
 
-.grid-evolucao {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: 50px;
-margin-left: 50px;
-}
-
-.grid-rockstar,
-.grid-nintendo,
-.grid-sony,
-.grid-microft {
-    width: 400px;
-    height: 380px;
-    border-radius: 90px;
-    object-fit: cover;
-}
-
-
-.grid-nintendo {
-    background-image: url(logo_nintendo.jpg);
-}
-
-.grid-sony {
-background-image:url(logo_play.png);
-object-fit: cover;
+section>.Playstation {
+    margin-top: 5%;
+    background-color: var(--Azul-play);
+    height: 900px;
+    font-family: sans-serif;
 
 }
 
-.grid-microft {
-    background-color: green;
+section>.Title-Playstation {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 70px;
 
 }
 
-.grid-rockstar {
-    background-color: var(--preto);
+section>.Info-Playstation {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+
+.Info-Playstation-Left {
+    max-width:650px;
+    font-size: 28px;
 }
