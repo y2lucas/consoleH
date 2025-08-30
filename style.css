@@ -1,175 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 :root {
-    /* Padrão de Cores do site */
-    --Azul-Escuro: #090040;
-    --Roxo-Escuro: #471396;
-    --Roxo-Brilhante: #B13BFF;
-    --Amarelo-Ambar: #FFCC00;
-    --Branco: #FFFF;
+    /* Cores Padrão*/
     --preto: #000000;
+    --branco: #FFFFFF;
+    --azul-vibral: #0070D1;
+    --vermelho: #DD2723;
+    --verde: #006D37;
+    --rosa: #C21360;
 
-    /* Cores Consoles */
-    --Azul-play: #0070D1;
-    --Cinza-play: #2D2D2D;
+    /* Galaxy */
+    --Midnight-Black: #121212;
+    --Cosmic-Red: #BA1212;
+    --Starlight-Blue: #1264BA;
+    --Galactic-Purple: #4612BA;
+    --Nova-Pink: #E31B6D;
 
-}
+    /* Deep Earth */
+    --Volcanic-Red: #C21A1A;
+    --Cobalt-Blue: #1A6AC2;
+    --Sterling-Silver: #8F8F8F;
 
-body {
-    background-color: var(--Azul-Escuro);
-    color: var(--Branco);
-
-}
-
-main {
-    font-family: 'Pixelify Sans', sans-serif;
-}
-
-.container-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    /* Fonts */
 
 }
 
-.container-header nav {
-    padding-top: 40px;
-    padding-right: 50px;
+header {
+    background-color: var(--preto);
+    height: 45px;
+    width: 100%;
 }
-
-.container-header a {
-    text-decoration: none;
-    color: var(--Branco);
-    font-size: 36px;
-    margin: 51px;
-
-}
-
-.container-header a:hover {
-    border-bottom: solid var(--Roxo-Brilhante) 2px;
-}
-
-.background-img {
-    margin-top: 50px;
-    height: 800px;
-    background-image: url(backgroundconsole.jpeg);
-
-
-}
-
-.background-img-text {
-    text-align: center;
-    padding-top: 340px;
-    font-size: 80px;
-    color: var(--Amarelo-Ambar);
-    font-family: 'Pixelify Sans', sans-serif;
-    font-weight: 800;
-
-}
-
-.box {
-    margin: 100px;
-    font-size: 38px;
-
-}
-
-.box h3 {
-    margin-top: 20px;
-    font-size: 24px;
-    max-width: 700px;
-}
-
-.box-img {
-    margin-top: 150px;
-}
-
-.box-img img {
-    height: 800px;
-    width: 800px;
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-.title-historia {
-    padding-top: 30px;
-    text-align: center;
-    font-size: 48px;
-
-
-}
-
-.container-historia {
-    display: flex;
-    margin-top: 80px;
-    margin-left: 50px;
-
-}
-
-.historia-left,
-.historia-right {
-    flex: 1;
-}
-
-.historia-left {
-    font-size: 27px;
-}
-
-.historia-right img {
-    margin-left: 2%
-}
-
-.historia-right p {
-    color: var(--Branco);
-    font-size: 30px;
-    padding-left: 20%;
-}
-
-.image-container {
-    padding-left: 10px;
-    display: grid;
-    grid-template-columns: repeat(3, 270px);
-    gap: 5px;
-    justify-items: stretch;
-
-}
-
-.evolucao-title {
-    padding-top: 50px;
-    text-align: center;
-    font-size: 40px;
-}
-
-section>.Playstation {
-    margin-top: 5%;
-    background-color: var(--Azul-play);
-    height: 900px;
-    font-family: sans-serif;
-
-}
-
-section>.Title-Playstation {
-    text-align: center;
-    padding-top: 50px;
-    font-size: 70px;
-
-}
-
-section>.Info-Playstation {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 70px;
-}
-
-
-.Info-Playstation-Left {
-    max-width:650px;
-    font-size: 28px;
+.header-feito-por{
+    
 }
