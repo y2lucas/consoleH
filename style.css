@@ -34,6 +34,42 @@ header {
     height: 45px;
     width: 100%;
 }
-.header-feito-por{
-    
+
+.header-feito-por {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+
+}
+
+.header-feito-por a {
+    color: var(--branco);
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+.opcoes-para-ver {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.opcoes-para-ver img {
+    height: 60px;
+    width: 60px;
+
+}
+
+.opcoes-para-ver .consoles {
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+.consoles:hover {
+    transition: all 0.1s linear;
+   color: var(--azul-vibral);
 }
